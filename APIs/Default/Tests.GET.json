@@ -20,36 +20,36 @@
           "IsDeleted": false,
           "IsEnabled": false,
           "OrderIndex": 0,
-          "Metadata": {
-            "PAP_InternalIdentifier": "Api.InputField.RequiredValidator"
-          }
+          "Metadata": {}
         }
       ]
     }
   ],
   "Actions": [
     {
+      "Description": "Untitled Action",
       "ActionType": "PlantAnApp.ReadAllEntity.2c69c1d9-9308-4a4c-b2bc-340fe0530a48",
       "OrderIndex": 0,
       "Parameters": {
+        "ConnectionString": null,
+        "Where": null,
+        "RowLimit": "[RowLimit]",
+        "OrderByClauses": null,
         "OutputToken": "Tests",
-        "RowLimit": "[RowLimit]"
+        "OnError": []
       },
       "Output": {},
       "IsDisabled": false,
       "ExecutionType": "OnExecute",
-      "Metadata": {
-        "PAP_InternalIdentifier": "Api.ReadAllEntityRecords",
-        "EntityIdentifier": "2c69c1d9-9308-4a4c-b2bc-340fe0530a48",
-        "IsUidEnabled": "True"
-      }
+      "Metadata": {}
     },
     {
+      "Description": "Untitled Action",
       "ActionType": "RawResponse",
       "OrderIndex": 1,
       "Parameters": {
-        "HttpCode": "200 OK",
         "Content": "{\"Tests\" : [Tests:json]}",
+        "HttpCode": "200 OK",
         "Headers": [
           {
             "name": "Content-Type",
@@ -60,9 +60,7 @@
       "Output": {},
       "IsDisabled": false,
       "ExecutionType": "OnExecute",
-      "Metadata": {
-        "PAP_InternalIdentifier": "Api.RawResponse"
-      }
+      "Metadata": {}
     }
   ],
   "OnErrorActions": []
