@@ -1,0 +1,12 @@
+{
+  "Id": 6,
+  "GlobalId": "47b7c670-bad1-4982-a680-107473840dcf",
+  "Name": "ApiNamespace2",
+  "Description": "ApiNamespace",
+  "IsDefault": false,
+  "IsSystem": false,
+  "CreatedBy": 1,
+  "CreatedOn": "2022-12-19T17:01:28.4524716+02:00",
+  "LastModifiedBy": 1,
+  "LastModifiedOn": "2022-12-19T17:14:30.5304633+02:00"
+}
