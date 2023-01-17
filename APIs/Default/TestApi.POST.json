@@ -1,0 +1,26 @@
+{
+  "Name": "TestApi",
+  "HttpMethod": "POST",
+  "IsEnabled": true,
+  "OrderIndex": 0,
+  "CrossDomainPolicy": "Public",
+  "Input": [],
+  "Actions": [
+    {
+      "Description": "TestAction",
+      "ActionType": "ExecuteJavascript",
+      "OrderIndex": 0,
+      "Parameters": {
+        "ScriptName": "Log",
+        "Code": "console.log(\"Test api\")",
+        "OutputTokenName": "",
+        "LocalVariables": [],
+        "OnError": []
+      },
+      "IsDisabled": false,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    }
+  ],
+  "OnErrorActions": []
+}

@@ -1,0 +1,75 @@
+{
+  "Name": "Tests",
+  "Description": "Returns the information of all Test records in JSON object format.",
+  "HttpMethod": "GET",
+  "IsEnabled": true,
+  "OrderIndex": 3,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Input": [
+    {
+      "Name": "RowLimit",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "number",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"RowLimit is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0,
+          "Metadata": {
+            "PAP_InternalIdentifier": "Api.InputField.RequiredValidator"
+          }
+        },
+        {
+          "Data": "{\"Message\":\"RowLimit is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0,
+          "Metadata": {}
+        }
+      ]
+    }
+  ],
+  "Actions": [
+    {
+      "Description": "Untitled Action",
+      "ActionType": "PlantAnApp.ReadAllEntity.2c69c1d9-9308-4a4c-b2bc-340fe0530a48",
+      "OrderIndex": 0,
+      "Parameters": {
+        "ConnectionString": null,
+        "Where": null,
+        "RowLimit": "[RowLimit]",
+        "OrderByClauses": null,
+        "OutputToken": "Tests",
+        "OnError": []
+      },
+      "IsDisabled": false,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "Description": "Untitled Action",
+      "ActionType": "RawResponse",
+      "OrderIndex": 1,
+      "Parameters": {
+        "Content": "{\"Tests\" : [Tests:json]}",
+        "HttpCode": "200 OK",
+        "Headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      },
+      "IsDisabled": false,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    }
+  ],
+  "OnErrorActions": []
+}

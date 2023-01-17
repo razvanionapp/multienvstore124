@@ -1,0 +1,24 @@
+{
+  "InputFields": [],
+  "OutputFields": [],
+  "Id": 1,
+  "GlobalId": "2e10ad1a-89ae-4c7e-bb42-cce21142aea4",
+  "ConfigGenerationGlobalId": "2e10ad1a-89ae-4c7e-bb42-cce21142aea4",
+  "EnvironmentId": 1,
+  "Name": "Empty Workflow",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 1,
+    "EventName": "Event",
+    "Actions": [],
+    "IsInvalid": false
+  },
+  "CreatedBy": 1,
+  "CreatedOn": "2022-12-19T16:20:07.4169276+02:00",
+  "LastModifiedBy": 1,
+  "LastModifiedOn": "2022-12-20T12:25:20.1923756+02:00",
+  "DiagramXML": null,
+  "IsCorrupted": false,
+  "NamespaceUid": "47b7c670-bad1-4982-a680-107473840dcf"
+}

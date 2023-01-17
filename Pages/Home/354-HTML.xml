@@ -1,0 +1,120 @@
+<module type="DNNHTML" version="09.10.02.00">
+    <contentKey />
+    <moduleID>354</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>false</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title />
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>d66c13f7-7e60-423f-8e8d-971acf099a09</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>DNN_HTML</definition>
+    <moduledefinition>Text/HTML</moduledefinition>
+    <content type="DNNHTML" version="09.10.02.00"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;div class=&amp;quot;intro-container row&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;main col-md-12&amp;quot;&amp;gt;
+        &amp;lt;h2&amp;gt;CONNECT and PARTICIPATE&amp;lt;/h2&amp;gt;
+        &amp;lt;ul class=&amp;quot;row&amp;quot;&amp;gt;
+            &amp;lt;li class=&amp;quot;docs col-md-4 col-sm-6&amp;quot;&amp;gt;
+                &amp;lt;a href=&amp;quot;https://dnndocs.com&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;
+                    &amp;lt;span class=&amp;quot;overlay&amp;quot;&amp;gt;
+                        &amp;lt;p&amp;gt;DNN Docs is open source too! Learn how to get started with DNN, follow step-by-step tutorials, and even dig through the API documentation.&amp;lt;/p&amp;gt;
+                        &amp;lt;label&amp;gt;Visit DNN Docs&amp;lt;/label&amp;gt;
+                    &amp;lt;/span&amp;gt; 
+                    &amp;lt;span class=&amp;quot;text&amp;quot;&amp;gt;Docs&amp;lt;/span&amp;gt; 
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li class=&amp;quot;community col-md-4 col-sm-6&amp;quot;&amp;gt;
+                &amp;lt;a href=&amp;quot;https://dnncommunity.org&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;
+                    &amp;lt;span class=&amp;quot;overlay&amp;quot;&amp;gt;
+                        &amp;lt;p&amp;gt;The DNN Community is active and vibrant. Visit us and join in on the activities. Get help, discuss projects, and keep up with all the great things others are doing.&amp;lt;/p&amp;gt;
+                        &amp;lt;label&amp;gt;Visit DNN Community&amp;lt;/label&amp;gt;
+                    &amp;lt;/span&amp;gt; 
+                    &amp;lt;span class=&amp;quot;text&amp;quot;&amp;gt;Community&amp;lt;/span&amp;gt; 
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li class=&amp;quot;code col-md-4 col-sm-6&amp;quot;&amp;gt;
+                &amp;lt;a href=&amp;quot;https://github.com/dnnsoftware/Dnn.Platform&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;
+                    &amp;lt;span class=&amp;quot;overlay&amp;quot;&amp;gt;
+                        &amp;lt;p&amp;gt;The open source DNN Platform project is managed on GitHub. Visit us there and get involved. Report issues, provide valuable feedback, and contribute.&amp;lt;/p&amp;gt;
+                        &amp;lt;label&amp;gt;Visit DNN GitHub&amp;lt;/label&amp;gt;
+                    &amp;lt;/span&amp;gt;
+                    &amp;lt;span class=&amp;quot;text&amp;quot;&amp;gt;Code&amp;lt;/span&amp;gt;
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li class=&amp;quot;forums col-md-4 col-sm-6&amp;quot;&amp;gt;
+                &amp;lt;a href=&amp;quot;https://dnncommunity.org/forums&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;
+                    &amp;lt;span class=&amp;quot;overlay&amp;quot;&amp;gt;
+                        &amp;lt;p&amp;gt;Whether you have questions, need answers, or just want to help others, the community forums is the place for you.&amp;lt;/p&amp;gt;
+                        &amp;lt;label&amp;gt;Visit DNN Forums&amp;lt;/label&amp;gt;
+                    &amp;lt;/span&amp;gt; 
+                    &amp;lt;span class=&amp;quot;text&amp;quot;&amp;gt;Forums&amp;lt;/span&amp;gt; 
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li class=&amp;quot;blogs col-md-4 col-sm-6&amp;quot;&amp;gt;
+                &amp;lt;a href=&amp;quot;https://dnncommunity.org/blogs&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;
+                    &amp;lt;span class=&amp;quot;overlay&amp;quot;&amp;gt;
+                        &amp;lt;p&amp;gt;Informative and entertaining, challenging and educational, the DNN Community Blogs always have fresh content, fresh ideas and new opinions. Dive right in.&amp;lt;/p&amp;gt;
+                        &amp;lt;label&amp;gt;Visit DNN Blogs&amp;lt;/label&amp;gt;
+                    &amp;lt;/span&amp;gt; 
+                    &amp;lt;span class=&amp;quot;text&amp;quot;&amp;gt;Blogs&amp;lt;/span&amp;gt; 
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li class=&amp;quot;extensions col-md-4 col-sm-6&amp;quot;&amp;gt;
+                &amp;lt;a href=&amp;quot;https://dnncommunity.org/Forge&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;
+                    &amp;lt;span class=&amp;quot;overlay&amp;quot;&amp;gt;
+                        &amp;lt;p&amp;gt;DNN can be extended in many ways. There are many free, open source, and commercial themes, modules, libraries, providers, and more.&amp;lt;/p&amp;gt;
+                        &amp;lt;label&amp;gt;Visit DNN Extensions&amp;lt;/label&amp;gt;
+                    &amp;lt;/span&amp;gt; 
+                    &amp;lt;span class=&amp;quot;text&amp;quot;&amp;gt;Extensions&amp;lt;/span&amp;gt; 
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+        &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;col-md-12&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;col-md-12 platform-intro&amp;quot;&amp;gt;
+                    &amp;lt;p&amp;gt;DNN Platform (formerly DotNetNuke) is an open source, scalable, extensible and secure framework for creating rich, rewarding online experiences for a diverse user base. DNN Platform is the foundation for over 750,000 websites worldwide. Your DNN Community is the faithful steward of the DNN Platform open source project.&amp;lt;/p&amp;gt;
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;row social&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;col-md-12 social-links text-center&amp;quot;&amp;gt;
+                &amp;lt;h3&amp;gt;DNN Community Social Channels&amp;lt;/h3&amp;gt;
+                &amp;lt;ul class=&amp;quot;row&amp;quot;&amp;gt;
+                    &amp;lt;li class=&amp;quot;twitter col-xs-2&amp;quot;&amp;gt;
+                        &amp;lt;a href=&amp;quot;https://twitter.com/DNNAwareness&amp;quot; target=&amp;quot;_blank&amp;quot; aria-label=&amp;quot;Twitter&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+                    &amp;lt;/li&amp;gt;
+                    &amp;lt;li class=&amp;quot;facebook col-xs-2&amp;quot;&amp;gt;
+                        &amp;lt;a href=&amp;quot;https://www.facebook.com/groups/dnnconnect/&amp;quot; target=&amp;quot;_blank&amp;quot; aria-label=&amp;quot;Facebook&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+                    &amp;lt;/li&amp;gt;
+                    &amp;lt;li class=&amp;quot;youtube col-xs-2&amp;quot;&amp;gt;
+                        &amp;lt;a href=&amp;quot;https://www.youtube.com/user/dotnetnuke&amp;quot; target=&amp;quot;_blank&amp;quot; aria-label=&amp;quot;Youtube&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+                    &amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+</module>

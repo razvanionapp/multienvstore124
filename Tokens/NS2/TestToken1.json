@@ -1,0 +1,21 @@
+{
+  "id": 21,
+  "globalId": "bfe7066a-f5e0-4474-9016-1f1eb88c2cf0",
+  "namespace": {
+    "id": 6,
+    "globalId": "467bace1-5fa9-4726-858d-5127398b1370",
+    "portalId": 0,
+    "name": "NS2",
+    "isSystem": false
+  },
+  "name": "TestToken1",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "value": "Test",
+    "type": "string"
+  }
+}
